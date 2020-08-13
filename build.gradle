@@ -25,6 +25,9 @@ allprojects {
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'
+        lwjglVersion = "3.2.3"
+        jomlVersion = "1.9.25"
+        lwjglNatvies = "natives-windows"
     }
 
     repositories {
@@ -64,7 +67,6 @@ project(":core") {
         compile "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         compile "com.badlogicgames.gdx:gdx-ai:$aiVersion"
         compile files('libs/vis-ui-1.4.0.jar')
-
     }
 }
 
