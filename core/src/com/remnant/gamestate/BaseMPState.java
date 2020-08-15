@@ -116,7 +116,7 @@ public class BaseMPState extends GameState {
 		PlayerIDRequest request = new PlayerIDRequest();
 		game.client.sendTCP(request);
 		
-		loadMap("Compound.map");
+		loadMap("Test.map");
 		
 		Debug.logInfo("Network", "Client INIT");
 		Debug.print();
