@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<animation name="testAnimation">
+  <state id="0" name="idle">
+    <frame id="0" interpolation="linear">
+      <object id="0" name="body">
+        <offset>
+          <x>0.0</x>
+          <y>0.0</y>
+        </offset>
+        <orientation>0.0</orientation>
+        <scale>
+          <x>1.0</x>
+          <y>1.0</y>
+        </scale>
+        <marker id="0" name="body_marker">
+          <x>0.0</x>
+          <y>0.0</y>
+        </marker>
+      </object>
+    </frame>
+    <frame id="1" interpolation="linear">
+      <object id="0" name="body">
+        <offset>
+          <x>0.0</x>
+          <y>20.0</y>
+        </offset>
+        <orientation>0.0</orientation>
+        <scale>
+          <x>1.0</x>
+          <y>1.0</y>
+        </scale>
+        <marker id="0" name="body_marker">
+          <x>0.0</x>
+          <y>20.0</y>
+        </marker>
+      </object>
+    </frame>
+  </state>
+</animation>
