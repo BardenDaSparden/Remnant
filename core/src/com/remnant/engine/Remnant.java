@@ -12,9 +12,9 @@ public class Remnant extends Application {
 	public Remnant(){
 		ApplicationProperties properties = getProperties();
 		properties.setTitle("Remnant");
-		properties.setSize(1280, 720);
+		properties.setSize(1920, 1080);
 		properties.setBorderless(false);
-		properties.setFullscreen(false);
+		properties.setFullscreen(true);
 		properties.setVSync(false);
 	}
 	
